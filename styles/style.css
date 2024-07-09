@@ -10,6 +10,9 @@ header{
 .desc-color {
   color: rgba(39, 39, 39, 0.6);
 }
+.special{
+  color: #E55473;
+}
 
 /* banner section */
 .banner-container {
@@ -151,6 +154,25 @@ header{
   justify-content: space-evenly;
 }
 
+footer{
+  padding: 100px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.footer-content{
+  color: white;
+  text-align: center;
+}
+.footer-title{
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer-desc{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
 
 
 
