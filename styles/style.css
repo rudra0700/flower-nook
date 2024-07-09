@@ -44,6 +44,7 @@ header{
   padding: 10px 20px;
   border: none;
   color: white;
+  background-color: #E55473;
 }
 
 /* featured section */
@@ -91,6 +92,39 @@ header{
 }
 .first-delivery, .second-delivery, .third-delivery{
   text-align: center;
+}
+
+/* discount section */
+.discount{
+  max-width: 1440px;
+  background-color: #FEF6F8;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.discount-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 50px;
+}
+.discount-title{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.discoun-desc{
+  font-size: 18px;
+}
+.discount-content{
+  width: 50%;
+}
+.discount-content button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #E55473;
+  margin-top: 20px;
 }
 
 
