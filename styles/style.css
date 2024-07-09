@@ -45,3 +45,39 @@ header{
   border: none;
   color: white;
 }
+
+/* featured section */
+.featured{
+  max-width: 1440px;
+ margin: 0 auto;
+ margin-top: 100px;
+}
+.featured-title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.featured-desc{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.featured-image{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.first-image, .second-image, .third-image{
+  background-color: #F2DEE8;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* #F2DEE8 */
